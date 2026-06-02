@@ -77,8 +77,26 @@ The attack simulation was conducted on a 1024-bit RSA key generated via PyCrypto
 ### 4.4 Graphical Results
 The following figures illustrate the timing behavior of both implementations:
 
-- **Figure 1 (timing_analysis.png):** Histogram showing the distribution of execution times. The vulnerable implementation shows a wider, right-skewed spread indicating data-dependent timing leakage. The fixed implementation shows a more uniform distribution.
-- **Figure 2 (timing_comparison.png):** Scatter plot comparing per-sample execution times. The vulnerable RSA shows clear patterns correlated with ciphertext values, while the blinded version shows randomized scatter with no exploitable pattern.
+- **Figure 1 (Timing Distribution):** Histogram showing the distribution of execution times. The vulnerable implementation shows a wider, right-skewed spread indicating data-dependent timing leakage. The fixed implementation shows a more uniform distribution.
+  
+  ![Timing Distribution](screenshots/Timing%20Distribution%20(Histograms).jpeg)
+
+- **Figure 2 (Live Execution Time):** Line chart comparing per-sample execution times. The vulnerable RSA shows clear spikes indicating time leakage, while the blinded version shows a more controlled and randomized execution time.
+  
+  ![Live Execution Time](screenshots/Live%20Execution%20Time.jpeg)
+
+- **Figure 3 (Memory & Throughput):** Comparison of peak memory footprint and data processing throughput.
+  
+  ![Memory & Throughput Comparison](screenshots/Memory%20Footprint%20and%20ThroughPut%20Comparison.jpeg)
+
+### 4.5 Simulation Dashboard (GUI)
+The project includes a fully interactive Streamlit web dashboard to visualize the attack and defense mechanisms in real-time.
+
+**Main Dashboard & Configuration:**
+![Dashboard Overview](screenshots/DashBoard%201.jpeg)
+
+**Performance Metrics Summary:**
+![Performance Metrics](screenshots/Performance%20Metrics%20DashBoard.jpeg)
 
 
 ## 5. Security Analysis & Threat Model
