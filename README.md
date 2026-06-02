@@ -58,3 +58,19 @@ python src/visualize.py
 | Time Variance | Timing consistency indicator |
 | Memory Footprint (KB) | Peak memory during decryption |
 | Throughput (MB/s) | Data processing speed |
+
+## Screenshots
+
+### Application Dashboard
+![Dashboard 1](screenshots/DashBoard%201.jpeg)
+![Dashboard 2](screenshots/DashBoard%202.jpeg)
+
+### Live Execution Time Analysis
+![Live Execution Time](screenshots/Live%20Execution%20Time.jpeg)
+
+### Performance Metrics & Timing Distributions
+![Performance Metrics](screenshots/Performance%20Metrics%20DashBoard.jpeg)
+![Timing Distribution](screenshots/Timing%20Distribution%20(Histograms).jpeg)
+
+### Memory Footprint & Throughput Comparison
+![Memory & Throughput](screenshots/Memory%20Footprint%20and%20ThroughPut%20Comparison.jpeg)
